@@ -1,6 +1,6 @@
-# LarQ: Qdrant Vector Database Integration for Laravel
+# Laravel Qdrant SDK: Qdrant Vector Database Integration for Laravel
 
-LarQ is a Laravel package that provides a simple, expressive interface for working with the Qdrant vector database. It supports collection management, vector upserts, similarity search, and integration with embedders like OpenAI and Gemini.
+Laravel Qdrant SDK is a Laravel package that provides a simple, expressive interface for working with the Qdrant vector database. It supports collection management, vector upserts, similarity search, and integration with embedders like OpenAI and Gemini.
 
 ## Features
 - Create, update, delete, and list Qdrant collections
