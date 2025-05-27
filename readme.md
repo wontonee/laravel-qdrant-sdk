@@ -13,7 +13,7 @@ Laravel Qdrant SDK is a Laravel package that provides a simple, expressive inter
 
 1. **Require the package:**
    ```sh
-   composer require wontonee/larq
+   composer require wontonee/laravel-qdrant-sdk
    ```
 
 2. **Publish the config:**
