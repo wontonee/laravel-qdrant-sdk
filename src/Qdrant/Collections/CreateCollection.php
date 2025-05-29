@@ -16,8 +16,8 @@ class CreateCollection
 
     public function handle(string $collectionName, array $vectorParams): Response
     {
-        return $this->client->put("/collections/{$collectionName}", [
-            'vectors' => $vectorParams
-        ]);
+        // Send a full schema (blueprint) for the collection
+        return $this->client->put("/collections/{$collectionName}", $vectorParams);
+        
     }
 }
